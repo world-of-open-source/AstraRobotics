@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="176">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="e#125#150#0" expanded="true" />
               </folding>
@@ -24,24 +24,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/.pytest_cache/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="132">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
+              </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#123#148#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +124,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_stitch2.py">
+  <component name="RunManager" selected="Python.test_stitch">
+    <configuration name="test_stitch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AstraRobotics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_stitch2.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AstraRobotics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +181,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_stitch" />
         <item itemvalue="Python tests.pytest in test_stitch2.py" />
         <item itemvalue="Python tests.pytest in test_stitch.py" />
       </list>
@@ -184,30 +197,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574602854324</updated>
-      <workItem from="1574602891382" duration="1013000" />
+      <workItem from="1574602891382" duration="1800000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_stitch_py - 2019.11.24 at 19h 27m 44s.xml">
+      <configuration name="pytest in test_stitch.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_stitch2_py - 2019.11.24 at 19h 31m 01s.xml">
+      <configuration name="pytest in test_stitch2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_stitch2_py - 2019.11.24 at 19h 31m 17s.xml">
+      <configuration name="pytest in test_stitch2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_stitch2_py - 2019.11.24 at 19h 35m 17s.xml">
+      <configuration name="pytest in test_stitch2.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1013000" />
+    <option name="totallyTimeSpent" value="1800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Terminal" weight="0.22789116" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63265306" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5289116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,25 +254,16 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AstraRobotics$pytest_in_test_stitch_py.coverage" NAME="pytest in test_stitch.py Coverage Results" MODIFIED="1574603860177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching" />
-    <SUITE FILE_PATH="coverage/AstraRobotics$pytest_in_test_stitch2_py.coverage" NAME="pytest in test_stitch2.py Coverage Results" MODIFIED="1574604075551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching" />
+    <SUITE FILE_PATH="coverage/AstraRobotics$test_stitch.coverage" NAME="test_stitch Coverage Results" MODIFIED="1574604713877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching" />
+    <SUITE FILE_PATH="coverage/AstraRobotics$pytest_in_test_stitch2_py.coverage" NAME="pytest in test_stitch2.py Coverage Results" MODIFIED="1574604329769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="176">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="e#123#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#125#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -252,8 +271,20 @@
     <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/.pytest_cache/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="132">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subsystems/Autonomous/ImageStitching/test_stitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#125#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
