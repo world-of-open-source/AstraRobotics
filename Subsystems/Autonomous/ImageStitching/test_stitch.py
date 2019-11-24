@@ -21,6 +21,7 @@ args = vars(ap.parse_args())
 # grab the paths to the input images and initialize our images list
 print("[INFO] loading images...")
 imagePaths = sorted(list(paths.list_images(args["images"])))
+print(imagePaths)
 images = []
 
 # loop over the image paths, load each one, and add them to our

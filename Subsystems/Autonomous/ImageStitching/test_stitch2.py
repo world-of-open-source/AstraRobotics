@@ -9,16 +9,18 @@ import imutils
 import cv2
 
 # construct the argument parser and parse the arguments
+'''
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--images", type=str, required=True,
                 help="path to input directory of images to stitch")
 ap.add_argument("-o", "--output", type=str, required=True,
                 help="path to the output image")
 args = vars(ap.parse_args())
-
+'''
 # grab the paths to the input images and initialize our images list
 print("[INFO] loading images...")
-imagePaths = sorted(list(paths.list_images(args["images"])))
+
+imagePaths = sorted(list(paths.list_images('images')))
 images = []
 
 # loop over the image paths, load each one, and add them to our
@@ -37,7 +39,7 @@ stitcher = cv2.createStitcher() if imutils.is_cv3() else cv2.Stitcher_create()
 # stitching
 if status == 0:
     # write the output stitched image to disk
-    cv2.imwrite(args["output"], stitched)
+    cv2.imwrite('output.png', stitched)
 
     # display the output stitched image to our screen
     cv2.imshow("Stitched", stitched)
